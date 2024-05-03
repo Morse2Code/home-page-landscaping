@@ -8,7 +8,7 @@ body {
 
 .mission {
     display: flex;
-    height: 400px;
+    max-height: 400px;
     background-image: url(anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
     background-size: cover;
     border: 2px solid whitesmoke;
