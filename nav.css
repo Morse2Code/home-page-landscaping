@@ -1,0 +1,86 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0  0%;
+    background-color: aliceblue;
+}
+
+.nav p {
+     display: inline-block;
+     padding: 10px 10px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 70px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+
+.header {
+    font-family: "platypi", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .name {
+    padding-left: 10%;
+}
+
+.container .logo {
+    padding-left: 10%;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+/*extra*/
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
