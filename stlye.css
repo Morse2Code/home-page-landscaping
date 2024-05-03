@@ -12,6 +12,9 @@ body {
     background-image: url(anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
     background-size: cover;
     border: 2px solid whitesmoke;
+     background-position: center;
+    border: 2px solid whitesmoke;
+
 }
 
 .mission .content {
