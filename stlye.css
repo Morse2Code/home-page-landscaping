@@ -9,7 +9,7 @@ body {
 .mission {
     display: flex;
     height: 400px;
-    background-image: url(images/anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
+    background-image: url(anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
     background-size: cover;
     border: 2px solid whitesmoke;
 }
@@ -74,7 +74,7 @@ body {
 /*team*/
 
 .team {
-    background-image: url(images/thomas-bennie-ACoZwVwjElU-unsplash.jpg);
+    background-image: url(thomas-bennie-ACoZwVwjElU-unsplash.jpg);
     background-size: cover;
     height: 400px;
     display: flex;
