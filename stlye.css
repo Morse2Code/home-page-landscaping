@@ -1,0 +1,163 @@
+body {
+    margin:0;
+    font-family: 'platypi', Times, serif;
+    background-color: coral;
+    font-size: 22px;
+    
+}
+
+.mission {
+    display: flex;
+    height: 400px;
+    background-image: url(images/anthony-duran-XFLY0Yp3Gow-unsplash.jpg);
+    background-size: cover;
+    border: 2px solid whitesmoke;
+}
+
+.mission .content {
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.content h2 {
+    font-size: 70px;
+    opacity: 0.75;
+    text-align: center;
+}
+.content h4 {
+    font-size:20px;
+    font-weight: bold;
+    
+}
+
+/*Business/servies*/
+
+#business {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+}
+
+.jobs {
+    max-width: 450px;
+    max-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid coral;
+    padding: 10px;
+    margin: 20px;
+    
+    
+}
+
+.jobs img {
+    max-width: 200px;
+    max-height: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/*team*/
+
+.team {
+    background-image: url(images/thomas-bennie-ACoZwVwjElU-unsplash.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.teammate {
+    padding: 15px;
+    color: aliceblue;
+    flex-basis: 150px;
+   
+    
+    
+}
+
+.teammate img {
+    display: flex;
+    padding-left: 130px;
+    width: 180px;
+    height: auto;
+    
+}
+
+
+.sum {
+padding-top: 10%;
+padding-left: 5%;
+
+    
+}
+
+.sum p {
+    align-items: center;
+    opacity: 0.8;
+    border: 1px solid whitesmoke;
+    width: 900px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+footer h2 {
+    text-align: center;
+    font-size: 55px;
+    padding-left: 20px;
+}
+
+footer .contact {
+    text-align: center;
+}
+
+footer.logo {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
